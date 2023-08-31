@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+<div>
+    <form action="/url" method="GET">
+        <label for="username"> Please enter your username:</label>
+            <input type="text" id="username" name="username" minlength="3" maxlength="20" required>
+        <button type="submit">Submit</button>  
+    </form>
+</div>
+
+<div>
+    <form>
+        <label for="gender"> Please select your gender</label>
+        <div>
+            <input type="radio" id="genderChoice1" name="gender" value="male"/>
+             <label for="male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="genderChoice2" name="gender" value="female"/>
+             <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="radio" id="genderChoice3" name="gender" value="nonbinary"/>
+             <label for="nonbinary">Nonbinary</label>
+        </div>
+        <div>
+            <input type="radio" id="genderChoice4" name="gender" value="other"/>
+             <label for="other">Other</label>
+        </div> 
+        <div>
+            <input type="radio" id="genderChoice5" name="gender" value="null"/>
+             <label for="null">Prefer not to say</label>
+        </div>
+    </form>
+</div>
+
+<div>
+    <form>
+        <label for="country">Select your Country</label>
+        <select name="countries" id="country">
+          <option value="Mexico">Mexico</option>
+          <option value="United States">US</option>
+          <option value="Phillapines">Phillapines</option>
+          <option value="China">China</option>
+          <option value="Germany">Germany</option>
+        </select>
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+<div>
+    <input type="checkbox" id="box" name="terms" value="checkbox">
+    <label>Do you agree to the terms and conditions?</label>
+</div>
+
+<div>
+    <form>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+
+</body>
+</html>

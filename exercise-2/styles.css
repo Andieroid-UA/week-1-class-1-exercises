@@ -1,0 +1,12 @@
+
+body {
+    background-color: rgb(113, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(9, 103, 119);
+    font-size: 18px;
+}
+
+img {
+    border: 2px solid rgb(5, 5, 5);
+    padding: 1em;
+}
